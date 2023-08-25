@@ -1,0 +1,53 @@
+.index{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 1.2em;
+
+    display: block;
+
+    border: 2px solid gray;
+    border-radius: 11px;
+
+    #break-label, #session-label {
+        width: 50%;
+        float: left;
+        text-align: center;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5em;
+
+        .break-input, .session-input{
+
+            display: flex;
+            justify-content: center;
+            
+            #break-length, #session-length{
+                font-size: 1.5em;
+            }
+
+            .icon-arrow{
+                margin: auto 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .timer{
+        text-align: center;
+
+        #timer-label{
+            font-size: 2.8em;
+        }
+
+        #time-left{
+            font-size: 4.4em;
+        }
+
+        .timer-button{
+            font-size: 2em;
+            margin: auto 15px;
+            cursor: pointer;
+        }
+    }
+}
